@@ -10,6 +10,7 @@ import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Contact from "./Components/Contact/Contact";
+import Notfound from "./Components/Notfound/Notfound";
 
 import {
   BrowserRouter,
@@ -30,16 +31,20 @@ let x = createBrowserRouter([
         element: <Home />, // This will render in Outlet when path is '/'
       },
       {
-        path: "about", // Path for the About component
-        element: <About />, // This will render in Outlet when path is '/about'
+        path: "about",
+        element: <About />,
       },
       {
-        path: "contact", // Path for the Contact component
-        element: <Contact />, // This will render in Outlet when path is '/contact'
+        path: "contact",
+        element: <Contact />,
       },
       {
-        path: "portfolio", // Path for the Contact component
-        element: <Portfolio />, // This will render in Outlet when path is '/contact'
+        path: "portfolio",
+        element: <Portfolio />,
+      },
+      {
+        path: "*",
+        element: <Notfound />,
       },
     ],
   },

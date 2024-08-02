@@ -22,10 +22,18 @@ export default function Footer() {
           <div className="w-full md:w-4/12 px-2">
             <h4 className="text-3xl font-bold mb-3">ARROUND THE WEB</h4>
             <div className="icons">
-              <i className="fa-brands fa-facebook mx-1 icon"></i>
-              <i className="fa-brands fa-twitter mx-1 icon"></i>
-              <i className="fa-brands fa-linkedin-in mx-1 icon"></i>
-              <i className="fa-solid fa-globe mx-1 icon"></i>
+              <Link>
+                <i className="fa-brands fa-facebook mx-1 icon"></i>
+              </Link>
+              <Link>
+                <i className="fa-brands fa-twitter mx-1 icon"></i>
+              </Link>
+              <Link>
+                <i className="fa-brands fa-linkedin-in mx-1 icon"></i>
+              </Link>
+              <Link>
+                <i className="fa-solid fa-globe mx-1 icon"></i>
+              </Link>
             </div>
           </div>
           <div className="w-full md:w-4/12 px-2">

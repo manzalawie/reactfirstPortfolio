@@ -23,39 +23,53 @@ export default function Portfolio() {
         </div>
         <div className="mt-10 gap-10 p-14 flex flex-wrap justify-center text-center mx-auto">
           <div className="relative w-full md:w-3/12 group rounded-xl overflow-hidden">
-            <div className="absolute inset-0 flex items-center justify-center bg-[#1abc9ce6] opacity-0 group-hover:opacity-80 transition-opacity duration-300">
-              <i className="fas fa-plus text-white font-bold text-7xl"></i>
-            </div>
+            <Link>
+              <div className="absolute inset-0 flex items-center justify-center bg-[#1abc9ce6] opacity-0 group-hover:opacity-80 transition-opacity duration-300">
+                <i className="fas fa-plus text-white font-bold text-7xl"></i>
+              </div>
+            </Link>
             <img src="./src/assets/poert1.png" className="w-full" alt="port1" />
           </div>
           <div className="relative w-full md:w-3/12 group rounded-xl overflow-hidden">
-            <div className="absolute inset-0 flex items-center justify-center bg-[#1abc9ce6] opacity-0 group-hover:opacity-80 transition-opacity duration-300">
-              <i className="fas fa-plus text-white font-bold text-7xl"></i>
-            </div>
+            <Link>
+              <div className="absolute inset-0 flex items-center justify-center bg-[#1abc9ce6] opacity-0 group-hover:opacity-80 transition-opacity duration-300">
+                <i className="fas fa-plus text-white font-bold text-7xl"></i>
+              </div>
+            </Link>
             <img src="./src/assets/port2.png" className="w-full" alt="port1" />
           </div>
           <div className="relative w-full md:w-3/12 group rounded-xl overflow-hidden">
-            <div className="absolute inset-0 flex items-center justify-center bg-[#1abc9ce6] opacity-0 group-hover:opacity-80 transition-opacity duration-300">
-              <i className="fas fa-plus text-white font-bold text-7xl"></i>
-            </div>
+            <Link>
+              <div className="absolute inset-0 flex items-center justify-center bg-[#1abc9ce6] opacity-0 group-hover:opacity-80 transition-opacity duration-300">
+                <i className="fas fa-plus text-white font-bold text-7xl"></i>
+              </div>
+            </Link>
             <img src="./src/assets/port3.png" className="w-full" alt="port1" />
           </div>
           <div className="relative w-full md:w-3/12 group rounded-xl overflow-hidden">
-            <div className="absolute inset-0 flex items-center justify-center bg-[#1abc9ce6] opacity-0 group-hover:opacity-80 transition-opacity duration-300">
-              <i className="fas fa-plus text-white font-bold text-7xl"></i>
-            </div>
+            <Link>
+              {" "}
+              <div className="absolute inset-0 flex items-center justify-center bg-[#1abc9ce6] opacity-0 group-hover:opacity-80 transition-opacity duration-300">
+                <i className="fas fa-plus text-white font-bold text-7xl"></i>
+              </div>
+            </Link>
             <img src="./src/assets/poert1.png" className="w-full" alt="port1" />
           </div>
           <div className="relative w-full md:w-3/12 group rounded-xl overflow-hidden">
-            <div className="absolute inset-0 flex items-center justify-center bg-[#1abc9ce6] opacity-0 group-hover:opacity-80 transition-opacity duration-300">
-              <i className="fas fa-plus text-white font-bold text-7xl"></i>
-            </div>
+            <Link>
+              {" "}
+              <div className="absolute inset-0 flex items-center justify-center bg-[#1abc9ce6] opacity-0 group-hover:opacity-80 transition-opacity duration-300">
+                <i className="fas fa-plus text-white font-bold text-7xl"></i>
+              </div>
+            </Link>
             <img src="./src/assets/port2.png" className="w-full" alt="port1" />
           </div>
           <div className="relative w-full md:w-3/12 group rounded-xl overflow-hidden">
-            <div className="absolute inset-0 flex items-center justify-center bg-[#1abc9ce6] opacity-0 group-hover:opacity-80 transition-opacity duration-300">
-              <i className="fas fa-plus text-white font-bold text-7xl"></i>
-            </div>
+            <Link>
+              <div className="absolute inset-0 flex items-center justify-center bg-[#1abc9ce6] opacity-0 group-hover:opacity-80 transition-opacity duration-300">
+                <i className="fas fa-plus text-white font-bold text-7xl"></i>
+              </div>
+            </Link>
             <img src="./src/assets/port3.png" className="w-full" alt="port1" />
           </div>
         </div>
